@@ -1,4 +1,5 @@
-# Hangman Game
+# Hangman Game 
+
 The default administrator id is: neduet
                        password: cis
 Keep in mind while changing the above credentials. You can't recover them once you lose them.
@@ -14,3 +15,6 @@ from
 Zuhaib Noor, Muhammad Zunain, Muhammad Owais.
 
 # Screen Shot
+
+![h1](https://github.com/Muhammad-Zunain/Hangman-Game/assets/146370860/8be267af-0e22-4c8a-af32-816478d6ec68)
+
