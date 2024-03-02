@@ -1,3 +1,4 @@
+# Hangman Game
 The default administrator id is: neduet
                        password: cis
 Keep in mind while changing the above credentials. You can't recover them once you lose them.
@@ -11,3 +12,5 @@ NO EXTERNAL LIBRARIES HAVE BEEN USED while programming this game.
 HAPPY GAMING !!
 from
 Zuhaib Noor, Muhammad Zunain, Muhammad Owais.
+
+# Screen Shot
