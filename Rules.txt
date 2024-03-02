@@ -1,0 +1,13 @@
+RULES AND INSTRUCTIONS:
+
+1-You are given a secret word of different length in the form of underscores '_ _ _ _ 'and number of underscore depends upon the length of secret word.
+2-You have to fill letter in the place of underscores according to the available letter which we have provided to you.
+3-You are providing total six guesses and three warnings.
+4-when you enter a wrong letter then for consonant guess will minus one and for vowel guess will minus two.
+5-If you enter a letter which has already guessed or it does not reside in the available letter then warning will minus one.
+6-If warning becomes zero then only guess will minus one when you enter letter which resides in already guess or it does not belongs to available letter.
+7-if guess becomes zero then you lose the game otherwise you win the game and your score will be calculated according to the given formula:
+                     Total_Score = number of unique_words * guess
+          Eg: Secret word is "else"
+              Unique word = 3 and let suppose, guess = 3
+              Total_Score = 3 * 3 = 9 
