@@ -50,12 +50,12 @@ The game mimics the classic hangman experience through a CLI. It consists of two
 
 ### ⚠️ Rules Summary
 
-- ✅ Correct guesses reveal letters
-- ❌ Incorrect vowels cost 2 guesses
-- ❌ Incorrect consonants cost 1 guess
-- ⚠️ Invalid or repeated input reduces warnings (then guesses)
-- 🏆 Score = Remaining guesses × Unique letters in the word
-- 🎉 If score > previous high, player is congratulated
+-  Correct guesses reveal letters
+-  Incorrect vowels cost 2 guesses
+-  Incorrect consonants cost 1 guess
+-  Invalid or repeated input reduces warnings (then guesses)
+-  Score = Remaining guesses × Unique letters in the word
+-  If score > previous high, player is congratulated
 
 ---
 ---
@@ -70,38 +70,11 @@ The game mimics the classic hangman experience through a CLI. It consists of two
 
 ---
 
-## 🧪 Test Cases
-
-- ✅ Handling uppercase/lowercase inputs
-- ✅ Letter already guessed
-- ✅ Symbol or number entered
-- ✅ Consonant and vowel penalty
-- ✅ Warnings system
-- ✅ Admin password protection
-- ✅ Adding words and resetting score
-
----
-
-## 💡 What We Learned
-
-- Use of `join()` to update word display dynamically
-- File reading/writing for real-time game state
-- `os.system('cls')` to clear screen
-- Modular code organization (`functions.py`)
-- Score sorting and logic complexity
-- Clean CLI navigation using `while` loops and input validation
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Python 3.x installed
+## 💻 Getting Started
 
 ### Run Locally
 
-```bash
+```python
 git clone https://github.com/yourusername/hangman-game.git
 cd hangman-game
 python RUN.py
