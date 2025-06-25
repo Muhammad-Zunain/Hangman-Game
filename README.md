@@ -1,20 +1,114 @@
-# Hangman Game 
 
-The default administrator id is: neduet
-                       password: cis
-Keep in mind while changing the above credentials. You can't recover them once you lose them.
+# 🎮 Hangman Game – Terminal-Based Word Guessing Game
 
-It is advised to run the game from the destination folder by double clicking the "RUN.py" file. It is also advised that you should have
-latest version of python installed on your system.
-If you are a programmer and want to modify this game, you have the right do it. Funtions are defined in various files such as:
-"function.py", "admin_mode" and "player_mode".
-NO EXTERNAL LIBRARIES HAVE BEEN USED while programming this game.
+A terminal-based Hangman game written in Python that lets players guess randomly chosen words within limited attempts. The project features a user-friendly interface, scoring system, and an administrator mode to manage the word bank and high scores.
 
-HAPPY GAMING !!
-from
-Zuhaib Noor, Muhammad Zunain, Muhammad Owais.
+---
 
-# Screen Shot
+## 📘 Project Information
+
+- **Project Title**: Hangman Game
+- **Course**: CS-115 – Computer Programming
+- **University**: NED University of Engineering and Technology
+- **Semester**: Fall 2022
+- **Type**: Term Project
+- **Group Members**:
+  - Muhammad Zunain (CS-0086) – Admin Mode
+  - Muhammad Zuhaib Noor (CS-0081) – Player Mode
+  - Muhammad Owais (CS-0080) – Game Logic
+
+---
+
+## 🎯 Objective
+
+The game mimics the classic hangman experience through a CLI. It consists of two primary modes:
+
+- **Player Mode**: Guess the secret word, view game rules, see scores.
+- **Admin Mode**: Add new words, reset high scores, and manage word lists.
+
+---
+
+## 🔐 Admin Features
+
+- Add words to the `word.txt` dictionary
+- Reset the highest score and player's name
+- View scores of all previous players
+
+---
+
+## 🕹️ Gameplay Mechanics
+
+- Player starts with **6 guesses** and **3 warnings**
+- Secret word is randomly selected from `word.txt` (55,000+ words)
+- Each round, the player:
+  - Is shown available letters
+  - Guesses one letter at a time
+  - Gets immediate feedback
+- Game ends when the player either:
+  - Guesses the word correctly
+  - Runs out of guesses
+
+### ⚠️ Rules Summary
+
+- ✅ Correct guesses reveal letters
+- ❌ Incorrect vowels cost 2 guesses
+- ❌ Incorrect consonants cost 1 guess
+- ⚠️ Invalid or repeated input reduces warnings (then guesses)
+- 🏆 Score = Remaining guesses × Unique letters in the word
+- 🎉 If score > previous high, player is congratulated
+
+---
+---
+
+## 🛠 Technologies Used
+
+- **Python 3**
+- `os.system('cls')` for screen clearing
+- File handling with `.txt` files
+- Custom CLI interface using print/input
+- No external libraries
+
+---
+
+## 🧪 Test Cases
+
+- ✅ Handling uppercase/lowercase inputs
+- ✅ Letter already guessed
+- ✅ Symbol or number entered
+- ✅ Consonant and vowel penalty
+- ✅ Warnings system
+- ✅ Admin password protection
+- ✅ Adding words and resetting score
+
+---
+
+## 💡 What We Learned
+
+- Use of `join()` to update word display dynamically
+- File reading/writing for real-time game state
+- `os.system('cls')` to clear screen
+- Modular code organization (`functions.py`)
+- Score sorting and logic complexity
+- Clean CLI navigation using `while` loops and input validation
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.x installed
+
+### Run Locally
+
+```bash
+git clone https://github.com/yourusername/hangman-game.git
+cd hangman-game
+python RUN.py
+```
+
+
+# 📸 Screen Shot
 
 ![h1](https://github.com/Muhammad-Zunain/Hangman-Game/assets/146370860/8be267af-0e22-4c8a-af32-816478d6ec68)
 
