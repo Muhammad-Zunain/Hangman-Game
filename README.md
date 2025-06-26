@@ -5,20 +5,6 @@ A terminal-based Hangman game written in Python that lets players guess randomly
 
 ---
 
-## 📘 Project Information
-
-- **Project Title**: Hangman Game
-- **Course**: CS-115 – Computer Programming
-- **University**: NED University of Engineering and Technology
-- **Semester**: Fall 2022
-- **Type**: Term Project
-- **Group Members**:
-  - Muhammad Zunain (CS-0086) – Admin Mode
-  - Muhammad Zuhaib Noor (CS-0081) – Player Mode
-  - Muhammad Owais (CS-0080) – Game Logic
-
----
-
 ## 🎯 Objective
 
 The game mimics the classic hangman experience through a CLI. It consists of two primary modes:
