@@ -85,6 +85,7 @@ python RUN.py
 
 ![h1](https://github.com/Muhammad-Zunain/Hangman-Game/assets/146370860/8be267af-0e22-4c8a-af32-816478d6ec68)
 
+---
 ## 🤝 Contributors
 - [**Muhammad Zunain**](https://github.com/Muhammad-Zunain)
 - [**Muhammad Owais**](https://github.com/MuhammadOwais03)
