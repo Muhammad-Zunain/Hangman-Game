@@ -75,7 +75,7 @@ The game mimics the classic hangman experience through a CLI. It consists of two
 ### Run Locally
 
 ```python
-git clone https://github.com/yourusername/hangman-game.git
+git clone https://github.com/Muhammad-Zunain/Hangman-Game
 cd hangman-game
 python RUN.py
 ```
